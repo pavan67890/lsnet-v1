@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+env/
+.venv/
+venv/
+ffbdnetx_env/
+
+# Data and artifacts
+data/
+datasets/
+**/data/
+**/datasets/
+checkpoints/
+**/checkpoints/
+logs/
+**/logs/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.h5
+*.npz
+*.npy
+*.csv
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Reports
+final_report/
+

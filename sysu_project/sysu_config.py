@@ -1,0 +1,21 @@
+DATA_ROOT = r"S:\sota\sysu_project\datasets"
+PATCH_ROOT = r"S:\sota\sysu_project\sysu_patches"
+CHECKPOINT_DIR = r"S:\sota\sysu_project\checkpoints"
+LOG_DIR = r"S:\sota\sysu_project\logs"
+
+PATCH_SIZE = 256
+STRIDE = 128
+BATCH_SIZE = 4
+EPOCHS = 60
+LR = 1e-4
+WEIGHT_DECAY = 1e-2
+NUM_WORKERS = 2
+PIN_MEMORY = True
+PERSISTENT_WORKERS = True
+PREFETCH_FACTOR = 2
+AMP = True
+SEED = 42
+GRAD_ACCUM_STEPS = 3
+WARMUP_EPOCHS = 5
+SWA_START = 60
+SWA_LR = 1e-4
